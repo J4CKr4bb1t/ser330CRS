@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">13.33% </span>
+                <span class="strong">83.33% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>4/30</span>
+                <span class='fraction'>25/30</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">83.33% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/12</span>
+                <span class='fraction'>10/12</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">7.14% </span>
+                <span class="strong">64.28% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/14</span>
+                <span class='fraction'>9/14</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">21.05% </span>
+                <span class="strong">94.73% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>4/19</span>
+                <span class='fraction'>18/19</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -100,31 +100,31 @@
 <a name='L35'></a><a href='#L35'>35</a>
 <a name='L36'></a><a href='#L36'>36</a>
 <a name='L37'></a><a href='#L37'>37</a>
-<a name='L38'></a><a href='#L38'>38</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<a name='L38'></a><a href='#L38'>38</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -136,7 +136,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const Person = require('./person.js')
 &nbsp;
 class Instructor extends Person {
@@ -146,22 +146,22 @@ class Instructor extends Person {
     this.course_list = []
   }
 &nbsp;
-<span class="fstat-no" title="function not covered" >  li</span>st_courses (year = <span class="branch-0 cbranch-no" title="branch not covered" >null,</span> quarter = <span class="branch-0 cbranch-no" title="branch not covered" >null)</span> {
-<span class="cstat-no" title="statement not covered" >    if (year !== null &amp;&amp; quarter !== null) { // filter by year and quarter</span>
-      const filtered = <span class="cstat-no" title="statement not covered" >this.course_list.filter(<span class="fstat-no" title="function not covered" >co</span>urse =&gt; <span class="cstat-no" title="statement not covered" >course.year === year &amp;&amp; course.quarter === quarter)</span> </span>// filters
-      const sorted = <span class="cstat-no" title="statement not covered" >filtered.sort(<span class="fstat-no" title="function not covered" >(a</span>, b) =&gt; <span class="cstat-no" title="statement not covered" >new Date(b.year, b.quarter) - new Date(a.year, a.quarter))</span> </span>// sorts
-<span class="cstat-no" title="statement not covered" >      return sorted.map(<span class="fstat-no" title="function not covered" >co</span>urse =&gt; <span class="cstat-no" title="statement not covered" >course.toString())</span></span>
-    } else <span class="cstat-no" title="statement not covered" >if (year !== null) { // only year arg given</span>
-      const filtered = <span class="cstat-no" title="statement not covered" >this.course_list.filter(<span class="fstat-no" title="function not covered" >co</span>urse =&gt; <span class="cstat-no" title="statement not covered" >course.year === year)</span> </span>// filters
-      const sorted = <span class="cstat-no" title="statement not covered" >filtered.sort(<span class="fstat-no" title="function not covered" >(a</span>, b) =&gt; <span class="cstat-no" title="statement not covered" >new Date(b.year, b.quarter) - new Date(a.year, a.quarter))</span> </span>// sorts
-<span class="cstat-no" title="statement not covered" >      return sorted.map(<span class="fstat-no" title="function not covered" >co</span>urse =&gt; <span class="cstat-no" title="statement not covered" >course.toString())</span></span>
-    } else <span class="cstat-no" title="statement not covered" >if (quarter !== null) { // only quarter arg given</span>
-      const filtered = <span class="cstat-no" title="statement not covered" >this.course_list.filter(<span class="fstat-no" title="function not covered" >co</span>urse =&gt; <span class="cstat-no" title="statement not covered" >course.quarter === quarter)</span> </span>// filters
-      const sorted = <span class="cstat-no" title="statement not covered" >filtered.sort(<span class="fstat-no" title="function not covered" >(a</span>, b) =&gt; <span class="cstat-no" title="statement not covered" >new Date(b.year, b.quarter) - new Date(a.year, a.quarter))</span> </span>// sorts
-<span class="cstat-no" title="statement not covered" >      return sorted.map(<span class="fstat-no" title="function not covered" >co</span>urse =&gt; <span class="cstat-no" title="statement not covered" >course.toString())</span></span>
+  list_courses (year = <span class="branch-0 cbranch-no" title="branch not covered" >null,</span> quarter = <span class="branch-0 cbranch-no" title="branch not covered" >null)</span> {
+    if (year !== null &amp;&amp; quarter !== null) { // filter by year and quarter
+      const filtered = this.course_list.filter(course =&gt; course.year === year &amp;&amp; course.quarter === quarter) // filters
+      const sorted = filtered.sort(<span class="fstat-no" title="function not covered" >(a</span>, b) =&gt; <span class="cstat-no" title="statement not covered" >new Date(b.year, b.quarter) - new Date(a.year, a.quarter))</span> // sorts
+      return sorted.map(<span class="fstat-no" title="function not covered" >co</span>urse =&gt; <span class="cstat-no" title="statement not covered" >course.toString())</span>
+    } else if (year !== null) { // only year arg given
+      const filtered = this.course_list.filter(course =&gt; course.year === year) // filters
+      const sorted = filtered.sort(<span class="fstat-no" title="function not covered" >(a</span>, b) =&gt; <span class="cstat-no" title="statement not covered" >new Date(b.year, b.quarter) - new Date(a.year, a.quarter))</span> // sorts
+      return sorted.map(course =&gt; course.toString())
+    } else if (quarter !== null) { // only quarter arg given
+      const filtered = this.course_list.filter(course =&gt; course.quarter === quarter) // filters
+      const sorted = filtered.sort(<span class="fstat-no" title="function not covered" >(a</span>, b) =&gt; <span class="cstat-no" title="statement not covered" >new Date(b.year, b.quarter) - new Date(a.year, a.quarter))</span> // sorts
+      return sorted.map(course =&gt; course.toString())
     } else { // no filters given, default to None
-      const sorted = <span class="cstat-no" title="statement not covered" >this.course_list.sort(<span class="fstat-no" title="function not covered" >(a</span>, b) =&gt; <span class="cstat-no" title="statement not covered" >new Date(b.year, b.quarter) - new Date(a.year, a.quarter))</span> </span>// sorts
-<span class="cstat-no" title="statement not covered" >      return sorted.map(<span class="fstat-no" title="function not covered" >co</span>urse =&gt; <span class="cstat-no" title="statement not covered" >course.toString())</span></span>
+      const sorted = this.course_list.sort((a, b) =&gt; new Date(b.year, b.quarter) - new Date(a.year, a.quarter)) // sorts
+      return sorted.map(course =&gt; course.toString())
     }
   }
 &nbsp;
@@ -181,7 +181,7 @@ module.exports = Instructor
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2025-03-19T00:05:18.679Z
+                at 2025-04-02T22:23:32.564Z
             </div>
         <script src="prettify.js"></script>
         <script>
